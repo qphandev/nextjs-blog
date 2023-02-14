@@ -18,4 +18,14 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
     * 1/14/23 Gosh I'm trying my darndest to stay on track (put about 1 hour in) with following this tutorial but most of it is blurred to me. Not sure if its because of the cold or something, but my attention feels so loose right now. Should be proud of sticking through it though even though I don't feel like I'm actually absorbing anything right now.
     * I'm running into the situation where I'm learning something, and then I go, "How would I have ever figured out to do this? I wouldn't even know that I needed this!" When they instruct us to install these packages. I can't help but to feel like it'll be very difficult if not impossible to remember the things I've just learned, therefore rendering my current efforts useless. Now that is a harmful mindset.
 
+    1. This error occurs when Next.js can't find a compiled version of your application in the .next directory. Here are some common fixes for this error:
+
+    2. Rebuild the application: Run npm run build or yarn build in your terminal to rebuild the application. Then try running it again with npm run start or yarn start.
+
+    3. Delete the .next directory: Sometimes, the .next directory may become corrupted. To resolve this, delete the .next directory and run npm run build or yarn build again.
+
+    4. Check for outdated dependencies: Outdated dependencies can cause issues with the build process. Run npm outdated or yarn outdated to see if any of your dependencies are outdated. If any are, update them with npm update or yarn upgrade.
+
+    5. Check your next.config.js file: Make sure your next.config.js file is correctly set up.
+
 - Bookmark: https://nextjs.org/learn/basics/dynamic-routes/setup 
